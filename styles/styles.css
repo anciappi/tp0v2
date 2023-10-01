@@ -1,0 +1,135 @@
+@import url(nav-styles.css);
+
+:root{
+    /*Colores*/
+    --main-color: #222;
+
+    --arena: #FBB879;
+    --ladrillo: #C37A71;
+    --uva: #6B5B61;
+
+    --lighting-grey: #C5C5C5;
+    --light-grey: #7D7D7D;
+    --normal-grey: #343434;
+    --dark-grey: #181818;
+
+    /*Fuentes*/
+    --main-font: 'Playfair Display', serif;
+    --text-font: 'Barlow', sans-serif;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--main-color);
+}
+
+/* Nav Styles*/
+
+.main-nav{
+    margin: 0 auto;
+    display: flex;
+    width: 100vw;
+    height: 13vh;
+    background-color: var(--dark-grey);
+    font-family: var(--text-font);
+
+    .nav-logo{
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 15%;
+    }
+
+    ul{
+        margin: 0 auto;
+        width: 50%;
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        align-items: center;
+        li{
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+            height: 100%;
+            font-size: 1.6rem;
+            a{
+                text-decoration: none;
+                color: var(--light-grey);
+            }
+            a:hover{
+                color: var(--ladrillo);
+                transition: .5s;
+                -webkit-transition: .5s;
+                -moz-transition: .5s;
+                -ms-transition: .5s;
+                -o-transition: .5s;
+            }
+        }
+
+    }
+}
+
+/* Main Styles*/
+
+.main-sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 360px;
+}
+
+/* .card{
+    height: 100%;
+} */
+
+.card-img{
+    width: 100%;
+}
+
+.card{
+    margin-bottom: 1rem;
+}
+
+.card1{
+    width: 100%;
+}
+
+.card2{
+    display:flex;
+    justify-content: center;
+    width: 900px;
+    height: 45vh;
+}
+
+.card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-grey);
+    color: var(--arena);
+    font-size: 1.6rem;
+    width: 25%;
+    margin: 0 1rem;
+
+}
+
+
+
+
+/* Footer Styles*/
+
+.main-footer{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--dark-grey);
+}
