@@ -43,9 +43,13 @@ html{
     min-width: 360px;
 }
 
-/* .card{
-    height: 100%;
-} */
+.card{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    height: 300px;
+}
 
 .card-img{
     width: 100%;
@@ -53,6 +57,17 @@ html{
 
 .card{
     margin-bottom: 1rem;
+}
+
+.textos{
+    position: absolute;
+    margin-left: 10rem;
+    width: 50%;
+    h4{
+        font-size: 3rem;
+        color: var(--light-grey);
+        font-weight: 200;
+    }
 }
 
 .card1{
@@ -78,8 +93,6 @@ html{
     margin: 0 1rem;
 
 }
-
-
 
 
 /* Footer Styles*/
