@@ -73,6 +73,12 @@ html{
                 -ms-transition: .5s;
                 -o-transition: .5s;
             }
+            .link-deactivate{
+                color:(var(--main-color))
+            }
+            .link-deactivate:hover{
+                color: var(--main-color);
+            }
         }
 
     }
@@ -106,9 +112,9 @@ html{
 
 .card2{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 900px;
-    height: 45vh;
 }
 
 .card-section{
@@ -118,7 +124,8 @@ html{
     background-color: var(--dark-grey);
     color: var(--arena);
     font-size: 1.6rem;
-    width: 25%;
+    width: 20rem;
+    height: 20rem;
     margin: 0 1rem;
 
 }
