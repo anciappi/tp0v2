@@ -71,6 +71,27 @@ html{
     justify-content: center;
 }
 
+.card2-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: var(--dark-grey);
+    color: var(--arena);
+    font-size: 1.6rem;
+    width: 20rem;
+    height: 25rem;
+    margin: 0 1rem;
+    a{
+        text-decoration: none;
+        color: var(--arena);
+        padding: 2rem;
+        font-family: var(--text-font);
+        font-weight: 100;
+        font-size: 1.6rem;
+    }
+
+}
+
 .card3{
     justify-content: flex-end;
     background-image: url(/assets/img/uvaRecorte.png);
@@ -81,6 +102,31 @@ html{
     background-image: url(/assets/img/copaBn-01.png);
 }
 
+.card4-botton{
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: var(--ladrillo);
+    color: var(--arena);
+
+    border-radius: 1rem 0;
+    -webkit-border-radius: 1rem 0;
+    -moz-border-radius: 1rem 0;
+    -ms-border-radius: 1rem 0;
+    -o-border-radius: 1rem 0;
+}
+
+.card4-botton:hover{
+    background-color: var(--arena);
+    color: var(--ladrillo);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
 .card5{
     justify-content: flex-end;
     background-image: url(/assets/img/campoBodega.png);
@@ -142,8 +188,7 @@ html{
     -moz-border-radius: 6rem 0rem ;
     -ms-border-radius: 6rem 0rem ;
     -o-border-radius: 6rem 0rem ;
-    h4:;
-{
+    h4{
         color: var(--arena);
     }
     p{
@@ -179,18 +224,6 @@ html{
     }
 }
 
-.card-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--dark-grey);
-    color: var(--arena);
-    font-size: 1.6rem;
-    width: 20rem;
-    height: 20rem;
-    margin: 0 1rem;
-
-}
 
 
 /* Footer Styles*/
