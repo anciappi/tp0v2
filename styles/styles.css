@@ -39,7 +39,8 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    margin: 0 auto;
+    width: 1000px;
 }
 
 /* Stilos para Article */
@@ -81,15 +82,15 @@ html{
     width: 20rem;
     height: 25rem;
     margin: 0 1rem;
-    a{
-        text-decoration: none;
-        color: var(--arena);
-        padding: 2rem;
-        font-family: var(--text-font);
-        font-weight: 100;
-        font-size: 1.6rem;
-    }
+}
 
+.card2-section a{
+    text-decoration: none;
+    color: var(--arena);
+    padding: 2rem;
+    font-family: var(--text-font);
+    font-weight: 100;
+    font-size: 1.6rem;
 }
 
 .card3{
@@ -140,27 +141,30 @@ html{
 .textos{
     margin-left: 10rem;
     width: 30%;
-    h4{ 
-        margin-bottom: .5rem;
-        font-size: 4rem;
-        color: var(--light-grey);
-        font-weight: 200;
-    }
-    h2{
-        margin-bottom: .5rem;
-        font-size: 2.2rem;
-        color: var(--lighting-grey);
-        font-weight: 100;
-        letter-spacing: .2rem;
-    }
-    p{
-        font-family: var(--text-font);
-        font-size: 1.6rem;
-        color: var(--lighting-grey);
-        font-weight: 200;
-        line-height: 2rem;
-        letter-spacing: .1rem;
-    }
+}
+
+.textos h4{ 
+    margin-bottom: .5rem;
+    font-size: 4rem;
+    color: var(--light-grey);
+    font-weight: 200;
+}
+
+.textos h2{
+    margin-bottom: .5rem;
+    font-size: 2.2rem;
+    color: var(--lighting-grey);
+    font-weight: 100;
+    letter-spacing: .2rem;
+}
+
+.textos p{
+    font-family: var(--text-font);
+    font-size: 1.6rem;
+    color: var(--lighting-grey);
+    font-weight: 200;
+    line-height: 2rem;
+    letter-spacing: .1rem;
 }
 
 .header-title{
@@ -188,40 +192,42 @@ html{
     -moz-border-radius: 6rem 0rem ;
     -ms-border-radius: 6rem 0rem ;
     -o-border-radius: 6rem 0rem ;
-    h4{
-        color: var(--arena);
-    }
-    p{
-        font-weight: 200;
-    }
 }
+
+.texto3 h4{
+    color: var(--arena);
+}
+.texto3 p{
+    font-weight: 200;
+}
+
 
 .texto4{
     width: 50%;
-    h4{
-        color: var(--ladrillo);
-    }
-    h2{
-        color: var(--uva);
-    }
-    p{
-        color:var(--main-color);
-        margin-bottom: 2rem;
-        
-    }
+}
+.texto4 h4{
+    color: var(--ladrillo);
+}
+.texto4 h2{
+    color: var(--uva);
+}
+.texto4 p{
+    color:var(--main-color);
+    margin-bottom: 2rem;   
 }
 
 .texto5{
     width: 45%;
-    h4{
-        color: var(--arena);
-    }
-    h2{
-        font-size: 2rem;
-        color: var(--ladrillo);
-        font-weight: 100;
-    
-    }
+}
+
+.texto5 h4{
+    color: var(--arena);
+}
+
+.texto5 h2{
+    font-size: 2rem;
+    color: var(--ladrillo);
+    font-weight: 100;
 }
 
 
