@@ -40,7 +40,7 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    width: 1000px;
+    max-width: 1200px;
 }
 
 /* Stilos para Article */
@@ -57,14 +57,19 @@ html{
     width: 100%;
 }
 
-.card1, .card2, .card3, .card4, .card5, .card6{
+.header-index,.header-bodega , .card2, .card3, .card4, .card5, .card6{
     background-position: center;
     background-size:cover;
 }
 
-.card1{
+.header-index{
     justify-content: flex-start;
     background-image: url(/assets/img/barricasRecorte.png);
+}
+
+.header-bodega{
+    justify-content: flex-start;
+    background-image: url(/assets/img/Bodega-1.jpg);
 }
 
 .card2{
@@ -246,3 +251,57 @@ html{
     font-family: var(--text-font);
     font-weight: 100;
 }
+
+/* Sect - Bodega */
+
+.bodega-card{
+    height: 2000px;
+}
+
+.header-bodega{
+    border-radius: 0 0 0 5rem;
+    width: 100%;
+    -webkit-border-radius: 0 0 0 5rem;
+    -moz-border-radius: 0 0 0 5rem;
+    -ms-border-radius: 0 0 0 5rem;
+    -o-border-radius: 0 0 0 5rem;
+}
+
+.bodega-content{
+    background-color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    padding: 5rem;
+    background-image: url(/assets/img/campo-5.jpg);
+    background-position:bottom;
+    background-size:cover;
+}
+
+.bodega-content h3{
+    margin-bottom: 2rem;
+    width: 50%;
+    font-family: var(--text-font);
+    font-size: 5rem;
+    font-weight: 100;
+    color: var(--dark-grey);
+}
+
+.bodega-content p{
+    width: 50%;
+    font-family: var(--text-font);
+    font-size: 2rem;
+    color: var(--normal-grey);
+}
+
+.bodega-content img{
+    width: 100%;
+}
+
+
+/* Varietales */
+
+
+
+/* Contacto */
+
