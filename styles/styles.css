@@ -50,6 +50,7 @@ main{
     color: var(--dark-grey);
 }
 
+
 /* Main Content Styles*/
 
 .main-sect{
@@ -63,11 +64,11 @@ main{
 /* Stilos para Article */
 
 .card{
-    margin-bottom: 1rem;
+    padding: 5rem auto;
     display: flex;
     align-items:center;
     width: 100vw;
-    height: 300px;
+    height: auto;
 }
 
 .card-img{
@@ -75,6 +76,7 @@ main{
 }
 
 .header-index,.header-bodega, .card2, .card3, .card4, .card5, .card6{
+    padding: 3rem 0;
     background-position: center;
     background-size:cover;
 }
@@ -90,7 +92,6 @@ main{
 }
 
 .card2{
-    display: flex;
     justify-content: center;
 }
 
@@ -123,6 +124,7 @@ main{
 .card4{
     justify-content: flex-start;
     background-image: url(/assets/img/copaBn-01.png);
+    background-position: right;
 }
 
 .card4-botton{
@@ -162,7 +164,7 @@ main{
 
 .textos{
     margin-left: 10rem;
-    width: 30%;
+    width: 40%;
 }
 
 .textos h4{ 
@@ -187,11 +189,6 @@ main{
     font-weight: 200;
     line-height: 2rem;
     letter-spacing: .1rem;
-}
-
-.header-title{
-    width: 35%;
-    
 }
 
 .textos-izq{
@@ -374,4 +371,132 @@ form button{
     -moz-border-radius: 1rem 0;
     -ms-border-radius: 1rem 0;
     -o-border-radius: 1rem 0;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+
+    /* header - index */
+    
+    /* Stilos para Article */
+    
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .card2-section{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: var(--dark-grey);
+        color: var(--arena);
+        font-size: 1.6rem;
+        width: 80%;
+        height: 25rem;
+        margin: 1rem 1rem;
+    }
+
+    .s1{
+        width: 30%;
+    }
+    .s2{
+        width: 50%;
+    }
+    .s3{
+        width: 50%;
+    }
+    .s4{
+        width: 30%;
+    }
+
+    .card3{
+        justify-content: flex-end;
+    }
+    
+    .card4{
+        background-position: right;
+    }
+
+    .card5{
+        justify-content: flex-end;
+        background-position: right;
+    }
+    
+    /* section Contacto */
+    .card6{
+        background-image: url(/assets/img/enConstruccion.png);
+    }
+    
+    .textos{
+        margin-left: 10rem;
+        width: 50%;
+    }
+    
+    .textos h4{ 
+        margin-bottom: .5rem;
+        font-size: 4rem;
+        color: var(--light-grey);
+        font-weight: 200;
+    }
+    
+    .textos h2{
+        margin-bottom: .5rem;
+        font-size: 2.2rem;
+        color: var(--lighting-grey);
+        font-weight: 100;
+        letter-spacing: .2rem;
+    }
+    
+    .textos p{
+        font-family: var(--text-font);
+        font-size: 1.6rem;
+        color: var(--lighting-grey);
+        font-weight: 200;
+        line-height: 2rem;
+        letter-spacing: .1rem;
+    }
+
+    .texto3{
+        width: 80%;
+    }
+    
+    
+    .texto4{
+        width: 50%;
+    }
+    
+    .texto4 h4{
+        color: var(--ladrillo);
+    }
+    
+    .texto4 h2{
+        color: var(--uva);
+    }
+    
+    .texto4 p{
+        color:var(--main-color);
+        margin-bottom: 2rem;   
+    }
+    
+    .texto5{
+        width: 45%;
+    }
+    
+    .texto5 h4{
+        color: var(--arena);
+    }
+    
+    .texto5 h2{
+        font-size: 2rem;
+        color: var(--ladrillo);
+        font-weight: 100;
+    }
+    
+}
+
+@media(max-width:576px) {
+    
 }
