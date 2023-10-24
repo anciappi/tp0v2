@@ -1,3 +1,5 @@
+
+/* Estilos importados - Nav bar */
 @import url(nav-styles.css);
 
 /* Estilos generales */
@@ -31,7 +33,22 @@ html{
     background-color: var(--main-color);
 }
 
+main{
+    display: flex;
+    justify-content: center;
 
+}
+
+/* Generales */
+/* H3 */
+.title-h3{
+    margin-bottom: 2rem;
+    width: 50%;
+    font-family: var(--text-font);
+    font-size: 5rem;
+    font-weight: 100;
+    color: var(--dark-grey);
+}
 
 /* Main Content Styles*/
 
@@ -210,12 +227,15 @@ html{
 .texto4{
     width: 50%;
 }
+
 .texto4 h4{
     color: var(--ladrillo);
 }
+
 .texto4 h2{
     color: var(--uva);
 }
+
 .texto4 p{
     color:var(--main-color);
     margin-bottom: 2rem;   
@@ -252,7 +272,8 @@ html{
     font-weight: 100;
 }
 
-/* Sect - Bodega */
+
+/* Styles - Bodega */
 
 .bodega-card{
     height: 2000px;
@@ -268,6 +289,8 @@ html{
 }
 
 .bodega-content{
+    max-width: 1200px;
+    height: 1200px;
     background-color: var(--dark-grey);
     display: flex;
     flex-direction: column;
@@ -276,15 +299,6 @@ html{
     background-image: url(/assets/img/campo-5.jpg);
     background-position:bottom;
     background-size:cover;
-}
-
-.bodega-content h3{
-    margin-bottom: 2rem;
-    width: 50%;
-    font-family: var(--text-font);
-    font-size: 5rem;
-    font-weight: 100;
-    color: var(--dark-grey);
 }
 
 .bodega-content p{
@@ -299,9 +313,31 @@ html{
 }
 
 
-/* Varietales */
+/* styles - Varietales */
 
 
 
-/* Contacto */
+/* styles - Contacto */
 
+.contact-sec{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content{
+    max-width: 1200px;
+    height: 800px;
+    background-color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    padding: 5rem;
+    background-image: url(/assets/img/campo-4.jpg);
+    background-position:bottom;
+    background-size:cover;
+}
+
+.contact-form{
+    margin-bottom: 3rem;
+    flex-direction: column;
+}
