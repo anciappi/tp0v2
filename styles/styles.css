@@ -74,7 +74,7 @@ main{
     width: 100%;
 }
 
-.header-index,.header-bodega , .card2, .card3, .card4, .card5, .card6{
+.header-index,.header-bodega, .card2, .card3, .card4, .card5, .card6{
     background-position: center;
     background-size:cover;
 }
@@ -289,8 +289,8 @@ main{
 }
 
 .bodega-content{
-    max-width: 1200px;
-    height: 1200px;
+    max-width: 120rem;
+    height: 200rem;
     background-color: var(--dark-grey);
     display: flex;
     flex-direction: column;
@@ -308,10 +308,6 @@ main{
     color: var(--normal-grey);
 }
 
-.bodega-content img{
-    width: 100%;
-}
-
 
 /* styles - Varietales */
 
@@ -327,17 +323,55 @@ main{
 .contact-content{
     max-width: 1200px;
     height: 800px;
+    margin-bottom: 1rem;
     background-color: var(--dark-grey);
     display: flex;
     flex-direction: column;
-    align-items: normal;
+    align-items: center;
     padding: 5rem;
     background-image: url(/assets/img/campo-4.jpg);
-    background-position:bottom;
-    background-size:cover;
+    background-position:top;
+    background-size:auto;
+    background-repeat: no-repeat;
 }
 
-.contact-form{
-    margin-bottom: 3rem;
+
+
+/* Contact form */
+
+form{
+    width: 120rem;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 50%;
+    padding: 1.5rem;
+    margin: .5rem;
+    background-color: #ffffff56;
+    border-radius: 1rem 0 ;
+    font-family: var(--text-font);
+    font-size: 1.6rem;
+    -webkit-border-radius: 1rem 0 ;
+    -moz-border-radius: 1rem 0 ;
+    -ms-border-radius: 1rem 0 ;
+    -o-border-radius: 1rem 0 ;
+}
+
+form button{
+    width: 50%;
+    padding: 1.2rem;
+    margin: .5rem;
+    font-family: var(--text-font);
+    font-size: 1.6rem;
+    background-color: #fff;
+    color: var(--normal-grey);
+    border-radius: 1rem 0;
+    -webkit-border-radius: 1rem 0;
+    -moz-border-radius: 1rem 0;
+    -ms-border-radius: 1rem 0;
+    -o-border-radius: 1rem 0;
 }
