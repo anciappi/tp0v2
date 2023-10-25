@@ -99,7 +99,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: var(--dark-grey);
+    background-color: var(--normal-grey);
     color: var(--arena);
     font-size: 1.6rem;
     width: 20rem;
@@ -108,11 +108,18 @@ main{
 }
 
 .card2-section a{
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+
+    background-color: var(--dark-grey);
     color: var(--arena);
-    padding: 2rem;
+    
+    text-decoration: none;
     font-family: var(--text-font);
-    font-weight: 100;
+    font-weight: 200;
     font-size: 1.6rem;
 }
 
@@ -258,15 +265,38 @@ main{
 
 .main-footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 10vh;
+    justify-content: center;
     background-color: var(--dark-grey);
     color: var(--normal-grey);
 
     font-family: var(--text-font);
     font-weight: 100;
+}
+
+.main-footer article {
+    display: flex;
+    justify-content: space-around;
+    width: 100rem;
+    padding: 5rem;
+}
+
+.main-footer ul{
+    list-style: none;
+}
+
+.main-footer li{
+    border-left: .2rem solid var(--arena);
+    padding: .5rem;
+}
+
+.main-footer a{
+    padding-left: 1rem;
+    font-family: var(--text-font);
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--ladrillo);
 }
 
 
@@ -319,7 +349,7 @@ main{
 }
 
 .contact-content{
-    max-width: 1200px;
+    max-width: 120rem;
     margin-bottom: 1rem;
     background-color: var(--dark-grey);
     display: flex;
@@ -333,9 +363,8 @@ main{
 }
 
 .contact-map{
-    width: 70%;
+    width: 120rem;
 }
-
 
 
 /* Contact form */
@@ -355,7 +384,7 @@ input, textarea{
     background-color: #ffffff56;
     border-radius: 1rem 0 ;
     font-family: var(--text-font);
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     -webkit-border-radius: 1rem 0 ;
     -moz-border-radius: 1rem 0 ;
     -ms-border-radius: 1rem 0 ;
