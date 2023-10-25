@@ -15,6 +15,7 @@
     --light-grey: #7D7D7D;
     --normal-grey: #343434;
     --dark-grey: #181818;
+    --dark-grey-70: #181818dc;
 
     /*Fuentes*/
     --main-font: 'Playfair Display', serif;
@@ -99,8 +100,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color: var(--normal-grey);
-    color: var(--arena);
     font-size: 1.6rem;
     width: 20rem;
     height: 25rem;
@@ -114,13 +113,40 @@ main{
     width: 100%;
     height: 20%;
 
-    background-color: var(--dark-grey);
-    color: var(--arena);
+    background-color: var(--dark-grey-70);
+    color: var(--lighting-grey);
     
     text-decoration: none;
     font-family: var(--text-font);
-    font-weight: 200;
-    font-size: 1.6rem;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+.card2-section a:hover{
+    background-color: var(--ladrillo);
+    color: var(--dark-grey);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.s1{
+    background-image: url(/assets/img/barricas1.jpg);
+    background-size:cover;
+}
+.s2{
+    background-image: url(/assets/img/campo-7.jpg);
+    background-size:cover;
+}
+.s3{
+    background-image: url(/assets/img/vinos-de-frente.jpg);
+    background-size:cover;
+}
+.s4{
+    background-image: url(/assets/img/copas.jpg);
+    background-size:cover;
 }
 
 .card3{
@@ -264,6 +290,7 @@ main{
 /* Footer Styles*/
 
 .main-footer{
+    margin-top: 1rem;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -278,7 +305,7 @@ main{
     display: flex;
     justify-content: space-around;
     width: 100rem;
-    padding: 5rem;
+    padding: 2rem;
 }
 
 .main-footer ul{
