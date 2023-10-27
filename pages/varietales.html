@@ -10,33 +10,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
 
+    <!-- Link javascript - Nav -->
+    <script defer src="/js/nav.js"></script>
+
+    <!-- Link para el icono del menu hamburguesa  -->
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+
     <title>Tierra | Wine & Whisky</title>
 </head>
 <body>
     <header>
         <nav class="main-nav">
-            <div class="nav-logo">
+            <div class="nav-logo">  
                 <img src="/assets/logo/Tierra Wine & Whisky Logo-02.png" height="100%" width="auto" alt="logo-tierra-wines">
             </div>
-            <ul>
-                <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/pages/bodega.html">Bodega</a></li>
-                <li><a href="/pages/varietales.html">Varietales</a></li>
-                <li><a href="/pages/contacto.html">Contacto</a></li>
-                <!-- <li><a class="link-deactivate" href="/pages/registro.html">Registro</a></li> -->
+    <!-- Boton del menu hamburguesa -->
+            <button class="navToggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="navMenu">
+                <li class="navMenuItem"><a href="/index.html">Inicio</a></li>
+                <li class="navMenuItem"><a href="/pages/bodega.html">Bodega</a></li>
+                <li class="navMenuItem"><a href="/pages/varietales.html">Varietales</a></li>
+                <li class="navMenuItem"><a href="/pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="main-sect">
-            <article class="card3 card">
-                <div class="title-h3">
-                    <h4>Varietales</h4>
-                </div>
+        <section class="varietales-content bodega-content" >
+            <article >
+                <h3 class="title-h3">Nuestros Varietales</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellendus cum quasi blanditiis sint quae aliquam! Repudiandae, sunt expedita. Voluptates dolor ipsa consequuntur, debitis optio sunt fugiat necessitatibus incidunt nisi!
+                </p>
             </article>
         </section>
-        
+        <section class="varietales-content--2">
+            <article>
+
+            </article>
+        </section>
     </main>
 
     <footer>

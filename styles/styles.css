@@ -344,8 +344,7 @@ main{
 
 .bodega-content{
     max-width: 120rem;
-    height: 200rem;
-    background-color: var(--dark-grey);
+    height: 160vh;
     display: flex;
     flex-direction: column;
     align-items: normal;
@@ -364,6 +363,30 @@ main{
 
 
 /* styles - Varietales */
+
+.varietales-content{
+    background-image: url(/assets/img/campo-2.jpg); 
+}
+
+.varietales-content article {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.varietales-content h3{
+    text-align: right;
+    width: 70%;
+    color: #fff;
+}
+
+.varietales-content p{
+    text-align: right;
+    width: 70%;
+    color:var(--arena);
+}
 
 
 
@@ -565,49 +588,99 @@ form button{
     
 }
 
-/* Nav responsive */
-@media(max-width:650px) {
-    /* media query para MOBILE */
-
-        .nav-logo{
-            margin-left: 1rem;
-            width: 80%;
-        }
-        .main-nav ul{
-            width: 100%;
-            height: calc(100% - 60px);
-            overflow-y: auto;
-        }
-        .navMenu {
-          flex-direction: column;
-          align-items: center;
-          margin: 0;
-          background-color: #000;
-          position: fixed;
-          top: 80px;
-          padding: 20px 0;
-          left: 100%;
-          transition: left 1s;
-        }
-      
-        .navMenuItem {
-          line-height: 50px;
-        }
-      
-       .navToggle {
-        width: 20%;
-        display: block;
-        }
-      
-        .navMenuVisible {
-          left: 0;
-        }
-      
-        .navToggle:focus:not(:focus-visible) {
-          outline: none;
-        }
-    }
-
 @media(max-width:576px) {
     
+    .card{
+        flex-wrap: wrap;
+    }
+
+    .s1{
+        width: 100%;
+    }
+    .s2{
+        width: 100%;
+    }
+    .s3{
+        width: 100%;
+    }
+    .s4{
+        width: 100%;
+    }
+
+    .card3{
+        justify-content: center;
+    }
+    
+    .card4{
+        background-position: right;
+    }
+
+    .card5{
+        justify-content: flex-end;
+        background-position: right;
+    }
+    
+    /* section Contacto */
+    .card6{
+        background-image: url(/assets/img/enConstruccion.png);
+    }
+    
+    .textos{
+        margin-left: 10rem;
+        width: 100%;
+    }
+
+    .textos-der{
+        margin: 0;
+    }
+
+    .textos-izq{
+        margin: 0;
+        padding: 3rem;
+    }
+
+    .texto3{
+        width: 100%;
+    }
+    
+    .texto4{
+        width: 100%;
+        background-color: #ffffffab;
+    }
+    
+    .texto4 h4{
+        color: var(--ladrillo);
+    }
+    
+    .texto4 h2{
+        color: var(--uva);
+    }
+    
+    .texto4 p{
+        color:var(--main-color);
+        margin-bottom: 2rem;   
+    }
+    
+    .texto5{
+        width: 100%;
+        padding: 3rem;
+    }
+    
+    .texto5 h4{
+        color: var(--arena);
+    }
+    
+    .texto5 h2{
+        font-size: 2rem;
+        color: var(--ladrillo);
+        font-weight: 100;
+    }
+
+    input, textarea{
+        width: 40%;
+    }
+    
+    form button{
+        width: 40%;
+    }
 }
