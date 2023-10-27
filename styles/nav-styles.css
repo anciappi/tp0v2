@@ -1,6 +1,6 @@
 /* Nav Styles*/
 
-.main-nav{
+/* .main-nav{
     margin: 0 auto;
     display: flex;
     height: 13vh;
@@ -44,124 +44,64 @@
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
-}
+} */
 
-/* .header {
-  height: 80px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
+/* Nav Styles*/
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  max-width: 992px;
+.main-nav{
   margin: 0 auto;
-}
-
-.navLink {
-  text-decoration: none;
-}
-
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-  padding: 0 40px;
-  line-height: 80px;
-}
-
-.navMenu {
   display: flex;
-  margin-right: 40px;
+  height: 13vh;
+  background-color: var(--dark-grey);
+  font-family: var(--text-font);
+}
+.nav-logo{
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15%;
+}
+
+.main-nav ul{
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
   list-style: none;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.navMenuItem {
-  font-size: 18px;
-  margin: 0 10px;
-  line-height: 80px;
-  width: max-content;
+.main-nav li{
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  height: 100%;
+  font-size: 1.6rem;
 }
 
-.navMenuLink {
-  padding: 8px 12px;
-  border-radius: 3px;
+.main-nav a{
+  text-decoration: none;
+  color: var(--light-grey);
 }
 
-.navMenuLink:hover,
-.navMenuLinkActive {
-  background-color: #7d8183;
-  transition: 0.5s;
+.main-nav a:hover{
+  color: var(--ladrillo);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
 }
 
-/* TOGGLE */
-/* .navToggle {
-  background: none;
-  border: none;
-  font-size: 30px;
-  padding: 0 20px;
-  line-height: 60px;
-  cursor: pointer;
-
-  display: none;
+/* Oculta el botn del menu hamburguesa en pantalla grande */
+.navToggle {
+background: none;
+color: var(--light-grey);
+border: none;
+font-size: 30px;
+padding: 0 20px;
+line-height: 60px;
+cursor: pointer;
+display: none;
 }
-
-
-
- /* MOBILE */
- /* @media (max-width: 768px) {
-    body {
-      padding-top: 70px;
-    }
-  
-    .header {
-      height: 60px;
-    }
-  
-    .logo {
-      font-size: 25px;
-      padding: 0 20px;
-      line-height: 60px;
-    }
-  
-    .navMenu {
-      flex-direction: column;
-      align-items: center;
-      margin: 0;
-      background-color: #2c3e50;
-      position: fixed;
-      top: 60px;
-      width: 100%;
-      padding: 20px 0;
-  
-      height: calc(100% - 60px);
-      overflow-y: auto;
-  
-      left: 100%;
-      transition: left 0.3s;
-    }
-  
-    .navMenuItem {
-      line-height: 70px;
-    }
-  
-    .navMenuLink:hover,
-    .navMenuLinkActive {
-      background: none;
-      color: #83c5f7;
-    }
-  
-    .navToggle {
-      display: block;
-    }
-  
-    .navMenuVisible {
-      left: 0;
-    }
-  
-    .navToggle:focus:not(:focus-visible) {
-      outline: none;
-    }
-  } */
