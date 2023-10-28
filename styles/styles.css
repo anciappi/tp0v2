@@ -354,8 +354,12 @@ main{
     background-size:cover;
 }
 
+.bodega-content h3{
+    width: 70%;
+}
+
 .bodega-content p{
-    width: 50%;
+    width: 70%;
     font-family: var(--text-font);
     font-size: 2rem;
     color: var(--normal-grey);
@@ -394,26 +398,29 @@ main{
 
 .contact-sec{
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .contact-content{
+    padding: 2rem;
     max-width: 120rem;
-    margin-bottom: 1rem;
-    background-color: var(--dark-grey);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem;
-    background-image: url(/assets/img/campo-4.jpg);
+    margin-bottom: 1rem;
+    background-color: var(--dark-grey);
+    background-image: url(/assets/img/campo-7.jpg);
     background-position:top;
     background-size:auto;
     background-repeat: no-repeat;
 }
 
+.contact-content h3{
+ text-align: center;
+}
+
 .contact-map{
-    width: 120rem;
+    width: 100%;
 }
 
 
@@ -431,39 +438,43 @@ input, textarea{
     width: 50%;
     padding: 1.5rem;
     margin: .5rem;
-    background-color: #ffffff56;
+
+    background-color: #ffffffc8;
     border-radius: 1rem 0 ;
-    font-family: var(--text-font);
-    font-size: 1.7rem;
     -webkit-border-radius: 1rem 0 ;
     -moz-border-radius: 1rem 0 ;
     -ms-border-radius: 1rem 0 ;
     -o-border-radius: 1rem 0 ;
+
+    font-family: var(--text-font);
+    color: var(--dark-grey);
+    font-size: 1.7rem;
+    font-weight: 400;
+    
 }
 
 form button{
     width: 50%;
     padding: 1.2rem;
     margin: .5rem;
-    font-family: var(--text-font);
-    font-size: 1.6rem;
-    background-color: #fff;
-    color: var(--normal-grey);
+    
     border-radius: 1rem 0;
     -webkit-border-radius: 1rem 0;
     -moz-border-radius: 1rem 0;
     -ms-border-radius: 1rem 0;
     -o-border-radius: 1rem 0;
+
+    font-family: var(--text-font);
+    font-size: 1.6rem;
+    background-color: #fff;
+    color: var(--normal-grey);
 }
 
 
-/* Responsive */
+/* Responsive - Tablet*/
 
 @media (max-width: 768px) {
 
-
-    /* header - index */
-    
     /* Stilos para Article */
     
     .card{
@@ -509,9 +520,6 @@ form button{
     }
     
     /* section Contacto */
-    .card6{
-        background-image: url(/assets/img/enConstruccion.png);
-    }
     
     .textos{
         margin-left: 10rem;
@@ -579,13 +587,16 @@ form button{
     }
 
     input, textarea{
-        width: 40%;
+        width: 50%;
     }
     
     form button{
-        width: 40%;
+        width: 50%;
     }
     
+    .main-footer a{
+        font-size: 1.3rem;
+    }
 }
 
 @media(max-width:576px) {
@@ -677,10 +688,10 @@ form button{
     }
 
     input, textarea{
-        width: 40%;
+        width: 30%;
     }
     
     form button{
-        width: 40%;
+        width: 30%;
     }
 }
