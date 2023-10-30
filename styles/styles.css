@@ -366,6 +366,30 @@ main{
 }
 
 
+.bodega-table{
+    border-collapse: collapse;
+    margin: 2rem 0 ;
+    padding: 2rem;
+    font-family: var(--text-font);
+    color: var(--dark-grey-70);
+    font-size: 1.6rem;
+
+    background-color: #22222272;
+}
+
+
+.bodega-table th {
+    color: var(--dark-grey);
+    padding: 1rem;
+    text-align: center;
+    border: .2rem solid #222;
+}
+.bodega-table td {
+    padding: 1rem;
+    text-align: center;
+    border: .2rem solid #222;
+}
+
 /* styles - Varietales */
 
 .varietales-content{
@@ -626,6 +650,14 @@ form button{
         font-size: 2rem;
         color: var(--ladrillo);
         font-weight: 100;
+    }
+
+    .bodega-content h3{
+        width: 90%;
+    }
+
+    .bodega-content p{
+        width: 90%;
     }
 
     input, textarea{

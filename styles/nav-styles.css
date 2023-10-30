@@ -55,7 +55,7 @@
   background-color: var(--dark-grey);
   font-family: var(--text-font);
 }
-.nav-logo{
+.nav-logo {
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
